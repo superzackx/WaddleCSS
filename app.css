@@ -1,0 +1,360 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.btn {
+    margin-top: 20px;
+    background: red;
+    border: none;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #1abc9c;
+    color: #1abc9c;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 550px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.btn-primary {
+    color: #0074d9;
+    border: 2px solid #0074d9;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-navy {
+    color: #001f3f;
+    border: 2px solid #001f3f;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-cyan {
+    color: #7fdbff;
+    border: 2px solid #7fdbff;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-teal {
+    color: #39cccc;
+    border: 2px solid #39cccc;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-olive {
+    color: #0dc06f;
+    border: 2px solid #0dc06f;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-success {
+    color: #2ecc40;
+    border: 2px solid #2ecc40;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-lime {
+    color: #01ff70;
+    border: 2px solid #01ff70;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-warning {
+    color: #ffdc00;
+    border: 2px solid #ffdc00;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-orange {
+    color: #ff851b;
+    border: 2px solid #ff851b;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-danger {
+    color: #ff4136;
+    border: 2px solid #ff4136;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-black {
+    color: #000;
+    border: 2px solid #000;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-white {
+    color: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-purple {
+    color: #b10dc9;
+    border: 2px solid #b10dc9;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-maroon {
+    color: #85144b;
+    border: 2px solid #85144b;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary:hover {
+    color: white;
+    background: #0074d9;
+}
+.btn-navy:hover {
+    color: white;
+    background: #001f3f;
+}
+.btn-cyan:hover {
+    color: white;
+    background: #7fdbff;
+}
+.btn-teal:hover {
+    color: white;
+    background: #39cccc;
+}
+.btn-olive:hover {
+    color: white;
+    background: #0dc06f;
+}
+.btn-success:hover {
+    color: white;
+    background: #2ecc40;
+}
+.btn-lime:hover {
+    color: white;
+    background: #01ff70;
+}
+.btn-warning:hover {
+    color: white;
+    background: #ffdc00;
+}
+.btn-orange:hover {
+    color: white;
+    background: #ff851b;
+}
+.btn-danger:hover {
+    color: white;
+    background: #ff4136;
+}
+.btn-black:hover {
+    color: white;
+    background: #000;
+}
+.btn-white:hover {
+    color: white;
+    background: #fff;
+}
+.btn-purple:hover {
+    color: white;
+    background: #b10dc9;
+}
+.btn-maroon:hover {
+    color: white;
+    background: #85144b;
+}
+* {
+    margin: 0px;
+    border: 0;
+}
