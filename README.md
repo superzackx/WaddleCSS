@@ -19,6 +19,8 @@ Buttons are a big part of WaddleCSS, there are different color buttons such as
  <button class="btn-primary">
  <button class="btn-olive">
  ```
+
+ ![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/btn.png)
  
  ### 2. Accordions
  
@@ -39,7 +41,7 @@ Buttons are a big part of WaddleCSS, there are different color buttons such as
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
  ```
- ![Example](https://github.com/superzackx/WaddleCSS.V2/asset/acc.png)
+ ![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/acc.png)
  
 ### 3. Navbar
 
@@ -66,6 +68,8 @@ Ah, a navbar. Responsive navbars are always useful. Example below:
     <br>
     <br> --- Add these! Very important
 ```
+
+![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/nav.png)
 
 ## Credits
 
