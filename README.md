@@ -61,6 +61,9 @@ Ah, a navbar. Responsive navbars are always useful. Example below:
             <div class="line"></div>
         </label>
     </nav>
+    <br>
+    <br>
+    <br> --- Add these! Very important
 ```
 
 ## Credits
