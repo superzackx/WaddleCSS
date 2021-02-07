@@ -39,6 +39,7 @@ Buttons are a big part of WaddleCSS, there are different color buttons such as
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
  ```
+ ![Example](https://github.com/superzackx/WaddleCSS.V2/asset/acc.png)
  
 ### 3. Navbar
 
