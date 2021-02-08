@@ -1,6 +1,6 @@
 # WaddleCSS
 
-A easy to use framework for making good looking websites. Support us buy starring this repo!
+A easy to use framework for making good looking websites. Support us by starring this repo!
 
 ## Usage
 
@@ -89,7 +89,10 @@ Our framework uses a 12 grid system. For making a coloum row, do this:
 ```
 ![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/grid.png)
 
-## Credits
+## Forms
+These forms are WaddleCSS Forms. They have a nice swoosh to it!
 
-1. @superzackx
-2. @NightZan999
+
+## Credits
+1. superzackx
+2. NightZan999
