@@ -89,7 +89,7 @@ Our framework uses a 12 grid system. For making a coloum row, do this:
 ```
 ![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/grid.png)
 
-## Forms
+## 5. Forms
 These forms are WaddleCSS Forms. They have a nice swoosh to it!
 So this is a form without our Strength class
 ```html
