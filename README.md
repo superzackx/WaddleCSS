@@ -71,6 +71,24 @@ Ah, a navbar. Responsive navbars are always useful. Example below:
 
 ![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/nav.png)
 
+### 4. Grid System
+
+Our framework uses a 12 grid system. For making a coloum row, do this:
+```html
+<div class="row">
+  <div class="col col-4">
+    <h1>Hello!</h1>
+  </div>
+    <div class="col col-4">
+    <h1>Hello!</h1>
+  </div>
+    <div class="col col-4">
+    <h1>Hello!</h1>
+  </div>
+</div>
+```
+![Example](https://github.com/superzackx/WaddleCSS.V2/blob/main/asset/grid.png)
+
 ## Credits
 
 1. @superzackx
