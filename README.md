@@ -91,6 +91,53 @@ Our framework uses a 12 grid system. For making a coloum row, do this:
 
 ## Forms
 These forms are WaddleCSS Forms. They have a nice swoosh to it!
+So this is a form without our Strength class
+```html
+        <main>
+            <form>
+                <div class="field">
+                    <input type="email" name="email" class = "input" />
+                    <label for="email" class="label">Email</label>
+                </div>
+                <div class="field">
+                    <input type="password" name="password" class= "input" />
+                    <label for="password" class="label">Password</label>
+                </div>
+                <!--        
+                    Below is the strength
+                        
+                    <div class="strength">
+                        <span class = "bar bar-1"></span>
+                        <span class = "bar bar-2"></span>
+                        <span class = "bar bar-3"></span>
+                        <span class = "bar bar-4"></span>
+                    </div>
+                    
+                    <ul>
+                        <li>must be at least 5 characters</li>
+                        <li>must contain a capital</li>
+                        <li>must contain a number</li>
+                    </ul>
+                -->
+            </form>
+        </main>
+```
+If you would like to add the strength then simply uncomment what I did. 
+For showing the strength you would need some javascript:
+```js
+let strength = 0;
+let validations = []; 
+            
+function validatePassword(e) {
+    const password = e.target.value;
+    validations = [
+        (password.length > 5), // use regex
+        (password.search(/[A-Z]/) > -1), // now simply searching for cap letters
+        (password.search(/[0-9]/) > -1), // searching for numbers
+    ]
+    return validations; 
+}
+```
 
 
 ## Credits
