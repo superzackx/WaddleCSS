@@ -20,7 +20,7 @@
                 </div>
                 <!--        
                     Below is the strength
-                    
+
                     <div class="strength">
                         <span class = "bar bar-1"></span>
                         <span class = "bar bar-2"></span>
@@ -36,19 +36,6 @@
                 -->
             </form>
         </main>
-        <script>
-            let strength = 0;
-            let validations = []; 
-            
-            function validatePassword(e) {
-                const password = e.target.value;
-                validations = [
-                    (password.length > 5),
-                    (password.search(/[A-Z]/) > -1),
-                    (password.search(/[0-9]/) > -1),
-                ]
-                return validations; 
-            }
-        </script>
+        <script src="./strength.js"></script>
     </body>
 </html>
