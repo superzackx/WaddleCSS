@@ -149,6 +149,31 @@ Alert boxes are dismissable and require minimal JavaScript.
   </div>
 ```
 
+## File Tree
+```
+Main
+ - � __Beta__
+     - � [README.MD](Beta/README.MD)
+     - � __forms__
+       - � [forms.css](Beta/forms/forms.css)
+       - � [index.html](Beta/forms/index.html)
+       - � [strength.js](Beta/forms/strength.js)
+   - � [README.md](README.md)
+   - � [app.css](app.css)
+   - � __asset__
+     - � [acc.png](asset/acc.png)
+     - � [btn.png](asset/btn.png)
+     - � [grid.png](asset/grid.png)
+     - � [main.png](asset/main.png)
+     - � [nav.png](asset/nav.png)
+   - � [index.html](index.html)
+   - � [main.html](main.html)
+   - � [node\_modules](node_modules)
+   - � [package\-lock.json](package-lock.json)
+   - � [package.json](package.json)
+   - � [script.js](script.js)
+```
+
 ## Credits
 1. superzackx
 2. NightZan999
