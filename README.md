@@ -138,7 +138,16 @@ function validatePassword(e) {
     return validations; 
 }
 ```
+### 6. Alert Boxes
 
+Alert boxes are dismissable and require minimal JavaScript.
+```html
+  <div class="alert-teal">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <h1 class="alert-title">Hello there</h1>
+    <p class="alert-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo id architecto deleniti, labore facilis amet possimus porro asperiores laborum praesentium doloribus, molestiae voluptatibus sed consectetur odio neque saepe ratione blanditiis.</p>
+  </div>
+```
 
 ## Credits
 1. superzackx

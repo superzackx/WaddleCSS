@@ -680,4 +680,152 @@ nav .icon-burger .line {
     }
     
   }
+
+  .alert-primary {
+    padding: 20px;
+    background-color: #0074d9;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-navy {
+    padding: 20px;
+    background-color: #001f3f;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-cyan {
+    padding: 20px;
+    background-color: #7fdbff;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-teal {
+    padding: 20px;
+    background-color: #39cccc;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-olive {
+    padding: 20px;
+    background-color: #0dc06f;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-success {
+    padding: 20px;
+    background-color: #2ecc40;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-lime {
+    padding: 20px;
+    background-color: #01ff70;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-warning {
+    padding: 20px;
+    background-color: #ffdc00;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-orange {
+    padding: 20px;
+    background-color: #ff851b;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-danger {
+    padding: 20px;
+    background-color: #ff4136;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-black {
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-white {
+    padding: 20px;
+    background-color: #fff;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-purple {
+    padding: 20px;
+    background-color: #b10dc9;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
+  .alert-maroon {
+    padding: 20px;
+    background-color: #85144b;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+ }
   
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
