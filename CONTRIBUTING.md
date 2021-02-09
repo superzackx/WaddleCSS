@@ -17,3 +17,6 @@ Upload at least 1000 lines of code at one time
 Upload in organized files and folders
 DO NOT delete files unecesarily
 DO NOT pull request that often (there might be some exceptions)
+
+Have fun coding!
+The WaddleCSS Team.
