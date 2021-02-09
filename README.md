@@ -175,5 +175,5 @@ Main
 ```
 
 ## Credits
-1. superzackx
-2. NightZan999
+1. <b>Superzackx</b>
+2. <b>NightZan999</b>
