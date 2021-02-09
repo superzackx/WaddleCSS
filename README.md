@@ -80,7 +80,7 @@ Our framework uses a 12 grid system. For making a coloum row, do this:
     <h1>Hello!</h1>
   </div>
     <div class="col col-4">
-    <h1>Hello!</h1>
+    <h1>Hello There!</h1>
   </div>
     <div class="col col-4">
     <h1>Hello!</h1>
