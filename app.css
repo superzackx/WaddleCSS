@@ -862,7 +862,7 @@ nav .icon-burger .line {
   
   .slides {
     display: flex;
-    
+
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     
@@ -947,9 +947,4 @@ nav .icon-burger .line {
     background: #000;
   }
   
-  /* Don't need button navigation */
-  @supports (scroll-snap-type) {
-    .slider > a {
-      display: none;
-    }
-  }
+  
