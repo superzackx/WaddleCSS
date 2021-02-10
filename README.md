@@ -150,28 +150,24 @@ Alert boxes are dismissable and require minimal JavaScript.
 ```
 
 ## File Tree
-```
-Main
- - � __Beta__
-     - � [README.MD](Beta/README.MD)
-     - � __forms__
-       - � [forms.css](Beta/forms/forms.css)
-       - � [index.html](Beta/forms/index.html)
-       - � [strength.js](Beta/forms/strength.js)
-   - � [README.md](README.md)
-   - � [app.css](app.css)
-   - � __asset__
-     - � [acc.png](asset/acc.png)
-     - � [btn.png](asset/btn.png)
-     - � [grid.png](asset/grid.png)
-     - � [main.png](asset/main.png)
-     - � [nav.png](asset/nav.png)
-   - � [index.html](index.html)
-   - � [main.html](main.html)
-   - � [node\_modules](node_modules)
-   - � [package\-lock.json](package-lock.json)
-   - � [package.json](package.json)
-   - � [script.js](script.js)
+```text
+nightzan999/theimperialgod/
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── app.css
+├── index.html
+├── script.js
+├── asset/
+|   ├──── acc.png
+|   ├──── btn.png
+|   ├──── grid.png
+|   ├──── main.png
+|   ├──── nav.png
+├── docs/
+|   ├──── index.html
+
 ```
 
 ## Credits
